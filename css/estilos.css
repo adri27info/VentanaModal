@@ -77,12 +77,12 @@ div.contenedorModal div.modal {
   transition: var(--transition);
 }
 
-.modal-open {
-  opacity: 1 !important;
-  pointer-events: unset !important;
-  transition: opacity 0.1s !important;
-  --transform: translateY(0) !important;
-  --transition: transform 0.5s 0.5s !important;
+div.contenedorModal.modal-open {
+  opacity: 1;
+  pointer-events: unset;
+  transition: opacity 0.1s;
+  --transform: translateY(0);
+  --transition: transform 0.5s 0.5s;
 }
 
 div.modal span.material-symbols-outlined {
