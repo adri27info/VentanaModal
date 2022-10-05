@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: silver;
+}
+
+div.container {
+  width: 60%;
+  margin: 10px auto;
+  background-color: white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+div.container div.datos {
+  padding: 10px;
+}
+
+div.datos h2 {
+  margin-bottom: 10px;
+}
+
+div.container div.contenedorBoton {
+  width: 200px;
+}
+
+div.contenedorBoton button {
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(0, 98, 255);
+  color: white;
+  margin-bottom: 10px;
+}
+
+div.contenedorModal {
+  width: 300px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+div.contenedorModal div.modal {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+  position: relative;
+}
+
+div.modal span.material-symbols-outlined {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+div.modal h2 {
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-open {
+  display: block !important;
+}
