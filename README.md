@@ -2,7 +2,11 @@
 
 This is a js project based on opening a modal window.
 
-![Image text](img/img-preview.png)
+![Image text](img/img-preview1.png)
+
+---
+
+![Image text](img/img-preview2.png)
 
 ## Table of contents
 
